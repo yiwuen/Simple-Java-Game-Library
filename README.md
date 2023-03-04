@@ -9,9 +9,9 @@ SJGL is packaged into one .jar file. Head to the release page and install the la
 ### Creating a simple window
 1. Inside of the main class, paste the following code: 
 ```
-public class Test extends Application {
+public class MySJGLDemo extends Application {
 
-	public Test() {
+	public MySJGLDemo() {
 		SimpleWindow simpleWindow = new SimpleWindow(850, 580, "My SJGL Window", this);
 		simpleWindow.createWindow(WindowUtils.TERMINATE_WINDOW, true, true);
 	}
@@ -23,7 +23,7 @@ public class Test extends Application {
 	}
 	
 	public static void main(String[] args) {
-		new Test().launch(args);
+		new MySJGLDemo().launch(args);
 	}
 	
 }
