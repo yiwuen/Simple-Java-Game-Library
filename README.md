@@ -13,7 +13,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 import com.sjgl.*;
-import com.sjgl.graphics.*;
+import com.sjgl.graphics.window.*;
 import com.sjgl.utils.*;
 
 public class MySJGLDemo extends Application {
