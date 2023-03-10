@@ -24,20 +24,20 @@ import com.sjgl.utils.*;
 
 public class MySJGLDemo extends Application {
 
-	public MySJGLDemo() {
-		SimpleWindow simpleWindow = new SimpleWindow(850, 580, "My SJGL Window", this);
-		simpleWindow.createWindow(WindowUtils.TERMINATE_WINDOW, true, true);
-	}
+    public MySJGLDemo() {
+        SimpleWindow simpleWindow = new SimpleWindow(850, 580, "My SJGL Window", this);
+	simpleWindow.createWindow(WindowUtils.TERMINATE_WINDOW, true, true);
+    }
+
+    @Override
+    public void render(Graphics2D g) {
+        g.setColor(Color.black);
+	g.fillRect(0, 0, getWidth(), getHeight());
+     }
 	
-	@Override
-	public void render(Graphics2D g) {
-		g.setColor(Color.black);
-		g.fillRect(0, 0, getWidth(), getHeight());
-	}
-	
-	public static void main(String[] args) {
-		new MySJGLDemo().launch(args);
-	}
+    public static void main(String[] args) {
+        new MySJGLDemo().launch(args);
+    }
 	
 }
 ```
