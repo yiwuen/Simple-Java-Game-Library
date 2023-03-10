@@ -43,5 +43,7 @@ public class MySJGLDemo extends Application {
 This creates a window 850x580 using Java's ```JFrame``` class put together into one simple class ```SimpleWindow```. ```Graphics2D``` is used to render graphics such as rendering the black background shown above.
 
 ### Configuring Project
+There are two ways you can create a SJGL project:
 - Manually creating a project and a class with the .jar file in the build path
 - Using SJGL's Project Manager that creates a Java project with the specified .jar location and a main class with a demo 
+SJGL's Project Manager, however, is still in current development and will be released soon.
