@@ -46,4 +46,5 @@ This creates a window 850x580 using Java's ```JFrame``` class put together into 
 There are two ways you can create a SJGL project:
 - Manually creating a project and a class with the .jar file in the build path
 - Using SJGL's Project Manager that creates a Java project with the specified .jar location and a main class with a demo 
-SJGL's Project Manager, however, is still in current development and will be released soon.
+
+SJGL's Project Manager, however, is still in current development and will be released as soon as SJGL is released and fully developed.
