@@ -54,8 +54,8 @@ Installing the library can either be downloading ```SJGL-{version}.jar``` or can
 
 ```
 # Scoop
-scoop install sjgl
+scoop install sjgl        # Windows
 # Homebrew
-brew install sjgl
+brew install sjgl         # MacOS
 ```
 
