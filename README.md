@@ -9,6 +9,7 @@ SJGL is packaged into one .jar file. Head to the release page and install the la
 
 #### VM Arguments
 Windows: ```-pathCompileThread```
+
 Mac: ```-XrecompileFirstThread```
 
 ### Creating a simple window
