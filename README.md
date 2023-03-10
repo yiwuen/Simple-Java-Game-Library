@@ -5,9 +5,11 @@ Simple Java Game Library (SJGL) is an open-source game library that uses native 
 SJGL is packaged into one .jar file. Head to the release page and install the latest .jar.
 1. Launch your preferred IDE (Eclipse IDE is recommended)
 2. Create a new Java Project and set the .jar file in the ```Build Path > Classpath```
-3. To ensure that the the library is working properly, type the following argument into ``VM Arguments```
+3. To ensure that the the library is working properly, type the following argument into ```VM Arguments```
 
 #### VM Arguments
+Windows: ```-pathCompileThread```
+Mac: ```-XrecompileFirstThread```
 
 ### Creating a simple window
 1. Inside of the main class, paste the following code: 
