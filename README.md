@@ -53,9 +53,7 @@ SJGL's Project Manager, however, is still in current development and will be rel
 Installing the library can either be downloading ```SJGL-{version}.jar``` or can be installed using third-party package installers such as Homebrew and Scoop. Run this in Terminal or cmd.
 
 ```
-# Scoop
 scoop install sjgl        # Windows
-# Homebrew
 brew install sjgl         # MacOS
 ```
 
