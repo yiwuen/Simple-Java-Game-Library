@@ -35,3 +35,4 @@ public class MySJGLDemo extends Application {
 	
 }
 ```
+This creates a window 850x580 using Java's ```JFrame``` class put together into one simple class ```SimpleWindow```. ```Graphics2D``` is used to render graphics such as rendering the black background shown above.
