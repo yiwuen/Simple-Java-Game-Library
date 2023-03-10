@@ -29,7 +29,6 @@ public class MySJGLDemo extends Application {
 	simpleWindow.createWindow(WindowUtils.TERMINATE_WINDOW, true, true);
     }
 
-    @Override
     public void render(Graphics2D g) {
         g.setColor(Color.black);
 	g.fillRect(0, 0, getWidth(), getHeight());
