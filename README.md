@@ -50,10 +50,11 @@ There are two ways you can create a SJGL project:
 SJGL's Project Manager, however, is still in current development and will be released as soon as SJGL is released and fully developed.
 
 ### Install via package manager
-Installing the library can either be downloading ```SJGL-{version}.jar``` or can be installed using third-party package installers such as Homebrew and Scoop. Run this in Terminal or cmd.
+Installing the library can either be downloading ```SJGL-{version}.jar``` or can be installed using third-party package managers such as Homebrew and Scoop. Run this in Terminal or cmd.
 
 ```
 scoop install sjgl        # Windows
 brew install sjgl         # MacOS
 ```
 
+This sets up and initializes the necessary sub-modules without the need of specifying the ```VM Arguments``` of your project.
