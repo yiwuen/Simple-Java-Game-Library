@@ -7,7 +7,7 @@ SJGL is packaged into one .jar file. Head to the release page and install the la
 2. Create a new Java Project and set the .jar file in the ```Build Path > Classpath```
 3. To ensure that the the library is working properly, type the following argument into ``VM Arguments```
 
-####VM Arguments
+#### VM Arguments
 
 ### Creating a simple window
 1. Inside of the main class, paste the following code: 
