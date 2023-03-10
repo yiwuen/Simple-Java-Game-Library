@@ -33,7 +33,7 @@ public class MySJGLDemo extends Application {
     public void render(Graphics2D g) {
         g.setColor(Color.black);
 	g.fillRect(0, 0, getWidth(), getHeight());
-     }
+    }
 	
     public static void main(String[] args) {
         new MySJGLDemo().launch(args);
