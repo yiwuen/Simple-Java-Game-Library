@@ -22,10 +22,12 @@ import com.sjgl.graphics.window.*;
 import com.sjgl.utils.*;
 
 public class MySJGLDemo extends Application {
+
     public MySJGLDemo() {
         SimpleWindow simpleWindow = new SimpleWindow(850, 580, "My SJGL Window", this);
 	simpleWindow.createWindow(WindowUtils.TERMINATE_WINDOW, true, true);
     }
+    
     public void render(Graphics2D g) {
         g.setColor(Color.black);
 	g.fillRect(0, 0, getWidth(), getHeight());
