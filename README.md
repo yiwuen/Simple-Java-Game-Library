@@ -57,3 +57,6 @@ brew install sjgl         # MacOS
 ```
 
 This sets up and initializes the necessary sub-modules without the need of specifying the ```VM Arguments``` of your project.
+
+### Javadoc
+There are no .jar files for the library javadoc. However, the .jar library file contains the source along with the javadoc.
