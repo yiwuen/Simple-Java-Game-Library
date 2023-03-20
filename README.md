@@ -1,5 +1,5 @@
 # Simple Java Game Library (SJGL)
-Simple Java Game Library (SJGL) is an open-source game library that uses native Java libraries and some OpenGL/GLFW. This tool serves as a helper library containing and providing helper classes/methods. Its main purpose is to speed up the game development of Java games programmed using built-in Java libraries. Additionally, it also serves as an alternative to LWJGL for 2D Java games.
+Simple Java Game Library (SJGL) is an open-source game library that uses native Java libraries and some OpenGL/GLFW for developing graphic engines. This tool serves as a helper library containing and providing helper classes/methods. Its main purpose is to speed up the game development of Java games programmed using built-in Java libraries. Additionally, it also serves as an alternative to LWJGL for 2D Java games.
 
 ## Setting up the library
 SJGL is packaged into one .jar file. Head to the release page and install the latest .jar.
@@ -39,7 +39,7 @@ public class MySJGLDemo extends Application {
 	
 }
 ```
-This creates a window 850x580 using Java's ```JFrame``` class put together into one simple class ```SimpleWindow```. ```Graphics2D``` is used to render graphics such as rendering the black background shown above.
+This creates a window 850x580 using Java's ```JFrame``` class put together into one simple class ```SimpleWindow```. ```Graphics2D``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of ```BufferStrategy``` to create using ```setNumBuffers(n)``` (2-3 is recommended).
 
 ### Configuring Project
 There are two ways you can create a SJGL project:
@@ -59,4 +59,4 @@ brew install sjgl         # MacOS
 This sets up and initializes the necessary sub-modules without the need of specifying the ```VM Arguments``` of your project.
 
 ### Javadoc
-There are no .jar files for the library javadoc. However, the .jar library file contains the source along with the javadoc.
+There are no .jar files for the library javadoc. However, the .jar library file contains the source along with the javadoc. Javadoc can also be accessed within the internet with the online doc provided in a .zip file.
