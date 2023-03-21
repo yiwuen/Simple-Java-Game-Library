@@ -18,25 +18,23 @@ Mac: ```-XrecompileFirstThread```
 import java.awt.*;
 
 import com.sjgl.*;
-import com.sjgl.graphics.window.*;
 import com.sjgl.utils.*;
 
 public class MySJGLDemo extends Application {
 
     public MySJGLDemo() {
-        SimpleWindow simpleWindow = new SimpleWindow(850, 580, "My SJGL Window", this);
-	simpleWindow.createWindow(WindowUtils.TERMINATE_WINDOW, true, true);
+        SJGL_WINDOW(850, 580, "My SJGL Window", this).display(WindowUtils.TERMINATE_WINDOW, true, true);
     }
-    
+
     public void render(Graphics2D g) {
         g.setColor(Color.black);
 	g.fillRect(0, 0, getWidth(), getHeight());
     }
-	
+
     public static void main(String[] args) {
         new MySJGLDemo().launch(args);
     }
-	
+
 }
 ```
 This creates a window 850x580 using Java's ```JFrame``` class put together into one simple class ```SimpleWindow```. ```Graphics2D``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of ```BufferStrategy``` to create using ```setNumBuffers(n)``` (2-3 is recommended).
