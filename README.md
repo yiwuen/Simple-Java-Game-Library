@@ -3,6 +3,8 @@ Simple Java Game Library (SJGL) is an open-source game library that uses native 
 
 Every now and then, there will be updates and bug fixes as the development of this project continues.
 
+**Note**: Javadoc is downloadable through the releases!
+
 ## Setting up the library
 SJGL is packaged into one .jar file. Head to the release page and install the latest .jar.
 1. Launch your preferred IDE (Eclipse IDE is recommended)
