@@ -23,7 +23,7 @@ import com.sjgl.utils.*;
 public class MySJGLDemo extends Application {
 
     public MySJGLDemo() {
-        SJGL_WINDOW(850, 580, "My SJGL Window", this).display(WindowUtils.TERMINATE_WINDOW, true, true);
+        SJGL_CreateWindow(850, 580, "My SJGL Window", this).display(WindowUtils.TERMINATE_WINDOW, true, true);
     }
 
     public void render(Graphics2D g) {
