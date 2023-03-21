@@ -33,13 +33,7 @@ public class MySJGLDemo extends Application {
 }
 ```
 This creates a window 850x580 using Java's JFrame class put together into one simple class ```SimpleWindow``` using a method from the ```Application``` class SJGL_WINDOW() to construct it. ```Graphics2D``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of BufferStrategy to create using ```setNumBuffers(n)``` (2-3 is recommended).
-
-### Configuring Project
-There are two ways you can create a SJGL project:
-- Manually creating a project and a class with the .jar file in the build path
-- Using SJGL's Project Manager that creates a Java project with the specified .jar location and a main class with a demo 
-
-SJGL's Project Manager, however, is still in current development and will be released as soon as SJGL is released and fully developed.
+ Project Manager, however, is still in current development and will be released as soon as SJGL is released and fully developed.
 
 ### Install via package manager
 Installing the library can either be downloading ```SJGL-{version}.jar``` or can be installed using third-party package managers such as Homebrew and Scoop. Run this in Terminal or cmd.
