@@ -14,7 +14,7 @@ Mac: ```-XrecompileFirstThread```
 
 ### Creating a simple window
 1. Inside of the main class, paste the following code: 
-```
+```java
 import java.awt.*;
 
 import com.sjgl.*;
