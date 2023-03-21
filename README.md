@@ -38,7 +38,7 @@ public class MySJGLDemo extends Application {
 
 }
 ```
-This creates a window 850x580 using Java's ```JFrame``` class put together into one simple class ```SimpleWindow```. ```Graphics2D``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of ```BufferStrategy``` to create using ```setNumBuffers(n)``` (2-3 is recommended).
+This creates a window 850x580 using Java's JFrame class put together into one simple class ```SimpleWindow``` using a method from the ```Application``` class SJGL_WINDOW() to construct it. ```Graphics2D``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of ```BufferStrategy``` to create using ```setNumBuffers(n)``` (2-3 is recommended).
 
 ### Configuring Project
 There are two ways you can create a SJGL project:
