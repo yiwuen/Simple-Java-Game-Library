@@ -43,4 +43,4 @@ scoop install sjgl        # Windows
 brew install sjgl         # MacOS
 ```
 
-This sets up and initializes the necessary sub-modules.
+However, downloading the .jar file is preferred over package managers.
