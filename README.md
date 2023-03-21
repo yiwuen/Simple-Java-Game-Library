@@ -13,6 +13,7 @@ Windows: ```-pathCompileThread```
 Mac: ```-XrecompileFirstThread```
 
 ### Creating a simple window
+Creating a window in SJGL is as simple as copying and pasting code ;).
 1. Inside of the main class, paste the following code: 
 ```java
 import java.awt.*;
