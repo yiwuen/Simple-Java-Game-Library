@@ -1,5 +1,6 @@
+import static com.sjgl.graphics.Renderer.*;
+
 import com.sjgl.*;
-import com.sjgl.graphics.*;
 import com.sjgl.utils.*;
 
 public class MySJGLDemo extends Application {
@@ -11,8 +12,8 @@ public class MySJGLDemo extends Application {
 	}
 
 	public void render() {
-		Renderer.SJGL_Color3f(0.0f, 0.0f, 0.0f);
-		Renderer.SJGL_Rect(0, 0, getWidth(), getHeight());
+		SJGL_Color3f(0.0f, 0.0f, 0.0f);
+		SJGL_Rect(0, 0, getWidth(), getHeight());
 	}
 
 	public static void main(String[] args) {
