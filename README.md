@@ -21,8 +21,6 @@ import com.sjgl.utils.*;
 
 public class MySJGLDemo extends Application {
 
-    private static final long serialVersionUID = -1L;
-
     public MySJGLDemo() {
         SJGL_CreateWindow(850, 580, "My SJGL Window", this).display(WindowUtils.TERMINATE_WINDOW, true, true);
     }
