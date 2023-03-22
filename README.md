@@ -48,5 +48,5 @@ brew install sjgl         # MacOS
 
 However, downloading the .jar file is preferred over package managers.
 
-### About the project
+## About the project
 SJGL is developed by yiwuen who decided to create a simple library to create Java 2D games without having to switch between projects and copy and paste code for game loop and thread handling. Hope this project speeds up the game development of others!
