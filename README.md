@@ -12,7 +12,7 @@ SJGL is packaged into one .jar file. Head to the release page and install the la
 
 ### Creating a simple window
 Creating a window in SJGL is as simple as copying and pasting code ;).
-1. Inside of the main class, paste the following code: 
+1. Once the library is set up, paste the following code inside of the main class: 
 ```java
 import static com.sjgl.graphics.Renderer.*;
 
