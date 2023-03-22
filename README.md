@@ -42,7 +42,10 @@ This creates a window 850x580 using Java's JFrame class put together into one si
 Rendering graphics onto a window can be done in two ways:
 1. Render using Graphics2D OR...
 2. Render using SJGL's built-in helper class ```Renderer```
+
 ```Renderer``` contains similar methods to Graphics2D (native Java class). It is the default class for rendering more complex and flexible shapes (in general, it's used for graphics rendering in SJGL). This helper class is recommended to use since it contains simple, necessary, and relevant methods to help ease rendering. However, the reference Graphics2D object ```g``` from ```Application``` can be accessed and directly used in any ```render()``` methods.
+
+This class can be used to draw shapes such as quads, triangles, and circles. Quads and triangles are the fundamental shapes for developing simple 2D graphics engine/games, which SJGL has support for.
 
 ## Install via package manager
 Installing the library can either be downloading ```SJGL-{version}.jar``` or can be installed using third-party package managers such as Homebrew and Scoop. Run this in Terminal or cmd.
