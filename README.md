@@ -38,7 +38,7 @@ public class MySJGLDemo extends Application {
 ```
 This creates a window 850x580 using Java's JFrame class put together into one simple class SimpleWindow using a method from the Application class ```SJGL_WINDOW()``` to construct it (note that this will automatically create the MAIN window). ```Renderer``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of BufferStrategy to create using ```setNumBuffers(n)``` (2-3 is recommended).
 
-### Configuring the window
+### Configuring the window and program
 ```SimpleWindow``` has many properties you can edit to enhance the window. Properties such as the window icon, functionality to resize, window termination, input handling (mouse and keyboard), add program arguments to enhance (window) game functionality, etc. A few examples to configure a window in code would be:
 ```java
 public MySJGLDemo() {
@@ -48,6 +48,7 @@ public MySJGLDemo() {
     setMainApplicationIcon("relative/path/to/project"); // sets the main window's application icon
 }
 ```
+If you are planning on configuring the overall execution of the program (or just the program itself), thread handling cannot and shouldn't be handled by the user. Thread handling is all done within the ```Application``` class using Java's built-in interface /*Runnable*/. Accessing the running and current thread can be done directly from the Application class using final method ```getThread()```. This allows the thread to be more flexible to the user if there are execution errors. However, it is not recommended to configure the thread as it is all done within the super class of the program (Application).
 
 ### Rendering graphics
 Rendering graphics onto a window can be done in two ways:
