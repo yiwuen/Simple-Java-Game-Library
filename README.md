@@ -38,6 +38,12 @@ public class MySJGLDemo extends Application {
 ```
 This creates a window 850x580 using Java's JFrame class put together into one simple class SimpleWindow using a method from the Application class ```SJGL_WINDOW()``` to construct it. ```Renderer``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of BufferStrategy to create using ```setNumBuffers(n)``` (2-3 is recommended).
 
+### Rendering graphics
+Rendering graphics onto a window can be done in two ways:
+1. Render using Graphics2D OR...
+2. Render using SJGL's built-in helper class ```Renderer```
+```Renderer``` contains similar methods to Graphics2D (native Java class). It is the default class for rendering more complex and flexible shapes (in general, it's used for graphics rendering in SJGL). This helper class is recommended to use since it contains simple, necessary, and relevant methods to help ease rendering. However, the reference Graphics2D object ```g``` from ```Application``` can be accessed and directly used in any ```render()``` methods.
+
 ## Install via package manager
 Installing the library can either be downloading ```SJGL-{version}.jar``` or can be installed using third-party package managers such as Homebrew and Scoop. Run this in Terminal or cmd.
 
