@@ -45,7 +45,7 @@ public MySJGLDemo() {
     SJGL_CreateWindow(850, 580, "My SJGL Window", this).display(WindowUtils.TERMINATE_WINDOW, true, true); // to access this window, getMainWindow()
     getMainWindow().setResizable(true); // false by default
     
-    setMainApplicationIcon("relative/path/to/project"); // sets the main window's application icon
+    setMainApplicationIcon("relative/path/to/image"); // sets the main window's application icon
 }
 ```
 If you are planning on configuring the overall execution of the program (or just the program itself), thread handling cannot and shouldn't be handled by the user. Thread handling is all done within the ```Application``` class using Java's built-in interface /*Runnable*/. Accessing the running and current thread can be done directly from the Application class using final method ```getThread()```. This allows the thread to be more flexible to the user if there are execution errors. However, it is not recommended to configure the thread as it is all done within the super class of the program (Application).
