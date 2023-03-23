@@ -1,4 +1,6 @@
 # Welcome to Simple Java Game Library (SJGL)!
+![SJGL_card](https://user-images.githubusercontent.com/74896557/227085817-22581ac3-0d03-4401-b969-80474731c409.png)
+
 Simple Java Game Library (SJGL) is an open-source game library that uses native Java libraries. This tool serves as a helper library containing and providing helper classes and methods. Its main purpose is to speed up the game development of Java games programmed using built-in libraries. As of right now, SJGL only supports Windows and MacOS. However, in the future, there will be many more platforms that this library will support.
 
 Every now and then, there will be updates and bug fixes as the development of this project continues.
