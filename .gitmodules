@@ -1,6 +1,3 @@
 [submodule "jbox2d"]
 	path = jbox2d-library
 	url = https://github.com/jbox2d/jbox2d.git
-[submodule "deps"]
-	path = deps
-	url = https://github.com/simple2d/deps.git
