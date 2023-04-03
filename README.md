@@ -7,7 +7,7 @@ Every now and then, there will be updates and bug fixes as the development of th
 **Note**: Javadoc is downloadable through the releases!
 
 ## Setting up the library
-SJGL is packaged into one .jar file. Head to the release page and install the latest .jar.
+SJGL is packaged into one .jar file: SJGL-{version}.jar. Head to the release page and install the latest .jar.
 1. Launch your preferred IDE (Eclipse IDE is recommended)
 2. Create a new Java Project and set the .jar file in the ```Build Path > Classpath```
 
