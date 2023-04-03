@@ -11,7 +11,7 @@ SJGL is packaged into one .jar file: ```SJGL-{version}.jar```. Head to the relea
 1. Launch your preferred IDE (Eclipse IDE is recommended)
 2. Create a new Java Project and set the .jar file in the ```Build Path > Classpath```
 
-### Creating a simple window
+## Creating a simple window
 Creating a window in SJGL is as simple as copying and pasting code ;).
 1. Once the library is set up, paste the following code inside of the main class: 
 ```java
