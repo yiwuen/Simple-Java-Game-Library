@@ -37,7 +37,7 @@ public class MySJGLDemo extends Application {
 
 }
 ```
-This creates a window 850x580 using Java's JFrame class put together into one simple class SimpleWindow using a method from the Application class ```SJGL_WINDOW()``` to construct it (note that this will automatically create the MAIN window). ```Renderer``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of BufferStrategy to create using ```setNumBuffers(n)``` (2-3 is recommended).
+This creates a window 850x580 using Java's JFrame class put together into one simple class SimpleWindow using a method from the Application class ```SJGL_WINDOW()``` to construct it (note that this will automatically create the MAIN window). ```Renderer``` is used to render graphics such as rendering the black background shown above. Additionally, you can set the amount of BufferStrategy to create using ```setNumBuffers(n)``` (2-3 is recommended). You can find more information on the javadoc.
 
 ### Configuring the window and program
 ```SimpleWindow``` has many properties you can edit to enhance the window. Properties such as the window icon, functionality to resize, window termination, input handling (mouse and keyboard), add program arguments to enhance (window) game functionality, etc. A few examples to configure a window in code would be:
