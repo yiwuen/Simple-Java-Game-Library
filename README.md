@@ -16,7 +16,20 @@ There are additional extentions that can be incorporated with SJGL as well. As o
 - JSON Simple
 
 #### JSON Simple
-JSON Simple allows the use of JSON (reading and writing/input) in Java. ```json-simple-{version}.jar``` must be added to the project's build path > classpath in order to use the provided SJGL methods.
+JSON Simple allows the use of JSON (reading and writing/input) in Java. ```json-simple-{version}.jar``` must be added to the project's build path > classpath in order to use the provided SJGL methods. An example of a JSON file:
+
+```json
+{
+    "SJGL": {
+        "Version": "1.0.0",
+	"Description": "SJGL is a simple (native) Java game library that serves as a tool to speed up game development.",
+	"Collaborators": [
+	    "yiwuen", 
+            "vianjoz"
+	]
+    }
+}
+```
 
 ## Creating a simple window
 Creating a window in SJGL is as simple as copying and pasting code ;).
