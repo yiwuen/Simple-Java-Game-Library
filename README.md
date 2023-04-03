@@ -11,9 +11,12 @@ SJGL is packaged into one .jar file: ```SJGL-{version}.jar```. Head to the relea
 1. Launch your preferred IDE (Eclipse IDE is recommended)
 2. Create a new Java Project and set the .jar file in the ```Build Path > Classpath```
 
-There are additional extentions that can be incorporated with SJGL as well. There are two available libraries:
+### Extentions
+There are additional extentions that can be incorporated with SJGL as well. As of right now, there is one available extention:
 - JSON Simple
-- JBox2D
+
+#### JSON Simple
+JSON Simple allows the use of JSON (reading and writing/input) in Java. ```json-simple-{version}.jar``` must be added to the project's build path > classpath in order to use the provided SJGL methods.
 
 ## Creating a simple window
 Creating a window in SJGL is as simple as copying and pasting code ;).
