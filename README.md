@@ -31,6 +31,32 @@ JSON Simple allows the use of JSON (reading and writing/input) in Java. ```json-
 }
 ```
 
+To use JSON in Java and read from a JSON file, we can use ```JSONParser``` and ```JSONObject```. The code may look something like this:
+
+```java
+JSONParser parser = new JSONParser();
+Object obj = parser.parse(new FileReader("C:\\User\\user\\Path\\to\\json"));
+JSONObject jsonObject = (JSONObject) obj; // We can now use JSON
+```
+
+To write into a JSON file (or just create a JSON object within Java), the code may also look something like this:
+
+```java
+jsonObject.put("Project Name", "My SJGL Demo!");
+
+// Or
+JSONObject j = new JSONObject();
+j.put("Key", "Value");
+
+System.out.println(j);
+```
+
+We can also console JSON data as well using our example of a JSON file:
+
+```java
+System.out.println(jsonObject.get("SJGL")); // Prints out the contents of this key
+```
+
 ## Creating a simple window
 Creating a window in SJGL is as simple as copying and pasting code ;).
 1. Once the library is set up, paste the following code inside of the main class: 
