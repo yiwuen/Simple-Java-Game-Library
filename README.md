@@ -12,7 +12,7 @@ SJGL is packaged into one .jar file: ```SJGL-{version}.jar```. Head to the relea
 2. Create a new Java Project and set the .jar file in the ```Build Path > Classpath```
 
 ### Extentions
-There are additional extentions that can be incorporated with SJGL as well. As of right now, there is one available extention:
+There are additional extentions that can be incorporated with SJGL as well to enhance of the use of this game library. As of right now, there is one available extention:
 - JSON Simple
 
 #### JSON Simple
