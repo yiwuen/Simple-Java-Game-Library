@@ -74,7 +74,7 @@ public class MySJGLDemo extends Application {
 
     public void render() {
         SJGL_Color3f(0.0f, 0.0f, 0.0f);
-	SJGL_Rect(0, 0, getWidth(), getHeight());
+	SJGL_Background();
     }
 
     public static void main(String[] args) {
